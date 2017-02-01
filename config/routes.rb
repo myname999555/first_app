@@ -4,5 +4,10 @@ Rails.application.routes.draw do
 
   get('/goodbye',{:controller => 'greetings', :action =>'goodbye'})
 
+  get('/myprofile',{:controller => 'greetings', :action =>'myprofile'})
+
+  get('/chat',{:controller => 'chat', :action =>'chat'})
+
+  get('/answer',{:controller => 'chat', :action =>'answer'})
 
 end

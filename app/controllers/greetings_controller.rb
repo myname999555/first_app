@@ -208,4 +208,9 @@ class GreetingsController < ApplicationController
  ]
     render('goodbye.html.erb')
   end
+
+  def myprofile
+    render('myprofile.html.erb')
+  end
+
 end
